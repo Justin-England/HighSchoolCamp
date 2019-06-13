@@ -14,27 +14,34 @@ def short_hand(short):
 
 phrase = input("Put a long sentence in, get a short sentence out! ")
 phrase_shortened = short_hand(phrase)
-print(f"Presto! Text this instead! \n {phrase_shortened}")
+print(f"\nPresto! Text this instead! \n\n \"{phrase_shortened}\"\n")
 
 phrase_forward = phrase.lower().replace(" ", "").replace("'", "").replace(",", "").replace(":", "").replace(";", "").replace(".", "")
 phrase_backward = (phrase_forward[::-1])
 
-def palindrome(palindrome_check):
-    palindrome_check = if(phrase_forward == phrase_backward):
-                            print("It's a palindrome!")
-                       else:
-                            print("Nope! Not a palindrome!")
-    return palindrome_check
+def palindrome(phrase_forward, phrase_backward):
+    if(phrase_forward == phrase_backward):
+        return print("It's a palindrome!")
+    else:
+        return print("Nope! Not a palindrome!")
 
 palindrome_yn = input("Would you like to check if this statement is a palindrome? y / n ")
 
 if(palindrome_yn == "y"):
-    print("Ok great! I'll check that for you! ")
-    palindrome(phrase)
+    print("\nOk great! I'll check that for you! \n")
+    palindrome(phrase_forward, phrase_backward)
+elif(palindrome_yn == "n"):
+    print("\nWell, if you say so. \n")
 else:
-    print("I don't understand what that means. ")
+    print("\nI don't understand what that means. Please imput a \"y\" or \"n.\" ")
 
-if(palindrome_yn == "n"):
-    print("Well, if you say so. ")
+while palindrome_yn not in ["y" or "n"]:
+    palindrome_yn = input("\nWould you like to check if this statement is a palindrome? y / n ")
+
+if(palindrome_yn == "y"):
+    print("\nOk great! I'll check that for you! \n")
+    palindrome(phrase_forward, phrase_backward)
+elif(palindrome_yn == "n"):
+    print("\nWell, if you say so. ")
 else:
-    print("I don't understand what that means. ")
+    print("\nI don't understand what that means. Please imput a \"y\" or \"n.\" ")
