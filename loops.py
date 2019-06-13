@@ -35,7 +35,7 @@ elif(palindrome_yn == "n"):
 else:
     print("\nI don't understand what that means. Please imput a \"y\" or \"n.\" ")
 
-while palindrome_yn not in ["y" or "n"]:
+while palindrome_yn not in ["y", "n"]:
     palindrome_yn = input("\nWould you like to check if this statement is a palindrome? y / n ")
 
 if(palindrome_yn == "y"):
