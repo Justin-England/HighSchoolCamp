@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d10e021-71fa-4e3f-b599-8c8e89e37ec3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pygame-practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame-practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pygame-practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
+            <state relative-caret-position="878">
               <caret line="96" column="56" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
               <folding>
                 <element signature="e#62#68#0" expanded="true" />
@@ -63,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2073" />
     <option name="height" value="1317" />
@@ -337,7 +337,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17142858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17142858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pygame-practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
+        <state relative-caret-position="878">
           <caret line="96" column="56" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
           <folding>
             <element signature="e#62#68#0" expanded="true" />
